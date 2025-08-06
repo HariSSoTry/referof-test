@@ -24,16 +24,15 @@ TypeScript по умолчанию не может обрабатывать ин
 Смотрите документацию Vite.
 
 Установка проекта
-sh
 npm install
+
 Запуск dev-сервера с hot-reload
-sh
 npm run dev
+
 Проверка типов, сборка и минификация для production
-sh
 npm run build
+
 Линтинг кода
-sh
 npm run lint
 
 Используемые технологии
