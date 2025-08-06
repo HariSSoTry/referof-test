@@ -1,33 +1,50 @@
-# referof-test
+Promo Code Creator
+Приложение для создания промокодов с двухэтапной формой, реализованное на Vue 3, TypeScript с использованием VeeValidate и Yup для валидации.
 
-This template should help get you started developing with Vue 3 in Vite.
+Рекомендуемая настройка IDE
+VSCode + Volar (отключите Vetur) + ESLint.
 
-## Recommended IDE Setup
+Поддержка TypeScript для .vue импортов
+TypeScript по умолчанию не может обрабатывать информацию о типах для .vue импортов, поэтому мы используем vue-tsc для проверки типов. В редакторах нужно установить Volar для поддержки типов в .vue файлах.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Особенности проекта
+🚀 Vue 3 с Composition API
 
-## Type Support for `.vue` Imports in TS
+⚡ TypeScript
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+✅ Валидация форм с VeeValidate и Yup
 
-## Customize configuration
+🎨 Адаптивный интерфейс по макетам Figma
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+📱 Поддержка мобильных устройств
 
-## Project Setup
+✨ Кастомные компоненты форм
 
-```sh
+Настройка конфигурации
+Смотрите документацию Vite.
+
+Установка проекта
+sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
+Запуск dev-сервера с hot-reload
+sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
+Проверка типов, сборка и минификация для production
+sh
 npm run build
-```
+Линтинг кода
+sh
+npm run lint
+
+Используемые технологии
+Vue 3
+
+TypeScript
+
+VeeValidate 4
+
+Yup
+
+Vite
+
+ESLint + Prettier
